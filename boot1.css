@@ -1,0 +1,64 @@
+body,
+html {
+	font-family: 'Noto Sans JP', sans-serif;
+	height: 100%;
+	width: 100%;
+	/*padding: 0;
+	margin: 0;*/
+
+	background: url(laptop_pic.jpg) 
+	no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	text-align: center;
+
+	margin: auto;
+	width: 640px;
+	padding: 50px;
+	
+}
+
+/* This created the small horizontal line in between */
+HR {
+	margin: 10px auto;
+	color: #F05F44;
+	border: 3px solid #F05F44;
+	max-width: 65px;
+	opacity: 1;
+}
+
+ .buffer {
+ 	height: 5rem;
+
+ }
+
+
+h1 {
+	font-size: 2em;
+	text-transform: uppercase;
+	color: white;
+	text-shadow: 0 1px 0 #btn btn-warning 2px 0 #btn btn-warning;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 200px;
+	text-transform: uppercase;
+}
+.btn-warning {
+	
+	padding: 1rem 2rem;
+	box-shadow: 2px 2px gray;
+}
+
+.btn-warning:hover {
+/* Mkaes the button a solid color 	*/
+	background-color: #ffc107;
+	border-color: #ffc107;
+/* Gives button a dynamic reaction when placing mouse over it */
+	border-width: 3px;
+
+}
+
